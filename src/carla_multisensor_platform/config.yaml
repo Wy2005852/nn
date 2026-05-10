@@ -1,0 +1,17 @@
+# CARLA 仿真配置文件
+
+carla:
+  host: localhost
+  port: 2000
+  timeout: 10.0
+
+world:
+  map: Town10HD
+  sync_mode: true
+  fixed_delta_seconds: 0.033
+
+sensors:
+  rgb_camera:
+    enabled: true
+    position: [0, 0, 2.4]
+    grid: [0, 0]

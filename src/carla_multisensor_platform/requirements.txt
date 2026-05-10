@@ -3,4 +3,8 @@ opencv-python==4.5.5.64
 pygame==2.1.2
 transforms3d==0.4.1
 colorama==0.4.6
-carla==0.9.15 
+carla==0.9.15
+torch>=1.7.0
+torchvision>=0.8.0
+ultralytics>=8.0.0
+open3d>=0.15.0
